@@ -1,0 +1,6 @@
+framework module MyLearningPod {
+  umbrella header "MyLearningPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

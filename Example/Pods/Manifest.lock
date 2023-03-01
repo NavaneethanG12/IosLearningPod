@@ -1,0 +1,16 @@
+PODS:
+  - MyLearningPod (0.1.0)
+
+DEPENDENCIES:
+  - MyLearningPod (from `../`)
+
+EXTERNAL SOURCES:
+  MyLearningPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MyLearningPod: 0000bd16f921fd7378ff8e0af9cac8ddd1f6b855
+
+PODFILE CHECKSUM: eb5b546c106352a1df7ca50471a9c3dc1662cdcf
+
+COCOAPODS: 1.11.3

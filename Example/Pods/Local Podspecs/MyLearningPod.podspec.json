@@ -1,0 +1,22 @@
+{
+  "name": "MyLearningPod",
+  "version": "0.1.0",
+  "summary": "A short description of MyLearningPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/NavaneethanG12/MyLearningPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NavaneethanG12": "navaneethan.g@zohocorp.com"
+  },
+  "source": {
+    "git": "https://github.com/NavaneethanG12/MyLearningPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "MyLearningPod/Classes/**/*"
+}
