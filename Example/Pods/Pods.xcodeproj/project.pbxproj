@@ -52,7 +52,6 @@
 		56CAD8B855224320F7AEEABE790BAF08 /* MyLearningPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyLearningPod-dummy.m"; sourceTree = "<group>"; };
 		63D850C3E0E80F2FAE884F247E2F200A /* MyLearningPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MyLearningPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		685805ACF60788484846A17904079033 /* Pods-MyLearningPod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyLearningPod_Tests"; path = Pods_MyLearningPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C01EC2F22B7D07D228D534FCFC8C51D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75A7F41D02264C545F763BED613F0B26 /* MyLearningPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyLearningPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -140,7 +139,6 @@
 			children = (
 				B4C8BDFBE7A83DFB38FA797F8D93D63B /* LICENSE */,
 				63D850C3E0E80F2FAE884F247E2F200A /* MyLearningPod.podspec */,
-				6C01EC2F22B7D07D228D534FCFC8C51D /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";

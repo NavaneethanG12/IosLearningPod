@@ -46,7 +46,6 @@
 		B9B26296E1371ABD16CA13AA /* Pods-MyLearningPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyLearningPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-MyLearningPod_Tests/Pods-MyLearningPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CA712F0C4780F20D8B6D48F3 /* MyLearningPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyLearningPod.podspec; path = ../MyLearningPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F93A3F954C6149341A004A89 /* Pods_MyLearningPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLearningPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF70D3F983830C14A4250D24 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				CA712F0C4780F20D8B6D48F3 /* MyLearningPod.podspec */,
-				FF70D3F983830C14A4250D24 /* README.md */,
 				3017A7B88ADE59B3F563E6BD /* LICENSE */,
 			);
 			name = "Podspec Metadata";
