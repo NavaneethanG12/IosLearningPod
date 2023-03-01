@@ -47,11 +47,11 @@
 		3DA7ABA28414D50420BB7FB2EC2636B4 /* MyLearningPod-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyLearningPod-Info.plist"; sourceTree = "<group>"; };
 		3E43224968E370D95909BDE929F05B83 /* Pods-MyLearningPod_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyLearningPod_Tests-Info.plist"; sourceTree = "<group>"; };
 		45902C21FB6C6EEDFA8DE9CDAB425519 /* Pods-MyLearningPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyLearningPod_Example.modulemap"; sourceTree = "<group>"; };
-		4E65DE7BCEC75AE8EB9726A728CBD57E /* Pods-MyLearningPod_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyLearningPod_Example"; path = Pods_MyLearningPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E65DE7BCEC75AE8EB9726A728CBD57E /* Pods_MyLearningPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLearningPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D88F35A1B9B1BB1B79901A8F07F42A /* Pods-MyLearningPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyLearningPod_Example-frameworks.sh"; sourceTree = "<group>"; };
 		56CAD8B855224320F7AEEABE790BAF08 /* MyLearningPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyLearningPod-dummy.m"; sourceTree = "<group>"; };
 		63D850C3E0E80F2FAE884F247E2F200A /* MyLearningPod.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = MyLearningPod.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		685805ACF60788484846A17904079033 /* Pods-MyLearningPod_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MyLearningPod_Tests"; path = Pods_MyLearningPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		685805ACF60788484846A17904079033 /* Pods_MyLearningPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyLearningPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75A7F41D02264C545F763BED613F0B26 /* MyLearningPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyLearningPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -189,8 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				75A7F41D02264C545F763BED613F0B26 /* MyLearningPod.framework */,
-				4E65DE7BCEC75AE8EB9726A728CBD57E /* Pods-MyLearningPod_Example */,
-				685805ACF60788484846A17904079033 /* Pods-MyLearningPod_Tests */,
+				4E65DE7BCEC75AE8EB9726A728CBD57E /* Pods_MyLearningPod_Example.framework */,
+				685805ACF60788484846A17904079033 /* Pods_MyLearningPod_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -275,7 +275,7 @@
 			);
 			name = "Pods-MyLearningPod_Tests";
 			productName = Pods_MyLearningPod_Tests;
-			productReference = 685805ACF60788484846A17904079033 /* Pods-MyLearningPod_Tests */;
+			productReference = 685805ACF60788484846A17904079033 /* Pods_MyLearningPod_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B9A2707924F0A490DD2A7DBCB7FAF38F /* MyLearningPod */ = {
@@ -312,7 +312,7 @@
 			);
 			name = "Pods-MyLearningPod_Example";
 			productName = Pods_MyLearningPod_Example;
-			productReference = 4E65DE7BCEC75AE8EB9726A728CBD57E /* Pods-MyLearningPod_Example */;
+			productReference = 4E65DE7BCEC75AE8EB9726A728CBD57E /* Pods_MyLearningPod_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -322,10 +322,10 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					B9A2707924F0A490DD2A7DBCB7FAF38F = {
-						LastSwiftMigration = 1420;
+						LastSwiftMigration = "";
 					};
 				};
 			};
@@ -442,7 +442,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -466,7 +466,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MyLearningPod_Tests/Pods-MyLearningPod_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MyLearningPod_Tests/Pods-MyLearningPod_Tests.modulemap";
@@ -518,6 +518,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -533,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -560,7 +561,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MyLearningPod_Example/Pods-MyLearningPod_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MyLearningPod_Example/Pods-MyLearningPod_Example.modulemap";
@@ -593,7 +594,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MyLearningPod_Tests/Pods-MyLearningPod_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MyLearningPod_Tests/Pods-MyLearningPod_Tests.modulemap";
@@ -627,7 +628,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MyLearningPod_Example/Pods-MyLearningPod_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MyLearningPod_Example/Pods-MyLearningPod_Example.modulemap";
@@ -680,6 +681,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -698,7 +700,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -737,7 +739,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
