@@ -1,15 +1,22 @@
 PODS:
-  - MyLearningPod (0.1.0)
+  - MyLearningPod (0.1.0):
+    - SnapKit
+  - SnapKit (5.6.0)
 
 DEPENDENCIES:
   - MyLearningPod (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   MyLearningPod:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MyLearningPod: 0000bd16f921fd7378ff8e0af9cac8ddd1f6b855
+  MyLearningPod: 980c26da1553fabbcf592ab9e97730308ebda2c5
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
 PODFILE CHECKSUM: eb5b546c106352a1df7ca50471a9c3dc1662cdcf
 

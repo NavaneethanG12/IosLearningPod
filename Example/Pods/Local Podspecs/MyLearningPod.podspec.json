@@ -1,22 +1,27 @@
 {
   "name": "MyLearningPod",
   "version": "0.1.0",
-  "summary": "A short description of MyLearningPod.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/NavaneethanG12/MyLearningPod",
+  "summary": "MyLearningPod is a custom Pod",
+  "description": "'This pod is a learning pod with useful classes'",
+  "homepage": "https://github.com/NavaneethanG12/IosLearningPod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "NavaneethanG12": "navaneethan.g@zohocorp.com"
+    "NavaneethanG12": "smashernavaneethan12@gmail.com"
   },
   "source": {
-    "git": "https://github.com/NavaneethanG12/MyLearningPod.git",
+    "git": "https://github.com/NavaneethanG12/IosLearningPod.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "14.0"
   },
-  "source_files": "MyLearningPod/Classes/**/*"
+  "source_files": "Source/**/*.swift",
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  }
 }

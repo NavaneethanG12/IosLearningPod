@@ -311,10 +311,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MyLearningPod_Example/Pods-MyLearningPod_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MyLearningPod/MyLearningPod.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MyLearningPod.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
