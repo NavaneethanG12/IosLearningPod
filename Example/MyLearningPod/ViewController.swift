@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import MyLearningPod
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let networkMonitor = ConnectionManager.shared
+        networkMonitor.startMonitoring()
+
+        networkMonitor.connectionStatusUpdated = { isActive in
+            DispatchQueue.main.async {
+                self.view.backgroundColor = isActive ? .green : .red
+            }
+        }
+
     }
 
     override func didReceiveMemoryWarning() {
